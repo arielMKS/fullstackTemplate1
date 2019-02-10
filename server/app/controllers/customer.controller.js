@@ -1,7 +1,7 @@
 const customerService = require("../services/customer.service");
 
 const getAll = (req, res) => {
-  // console.log("CUSTOMER CONTROLLER FIRING");
+  console.log("CUSTOMER CONTROLLER FIRING");
   customerService
     .getAll()
     .then(response => {
