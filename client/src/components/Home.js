@@ -5,7 +5,9 @@ class Home extends React.Component {
   componentDidMount = () => {
     console.log("componentDidMount firing");
     getAll();
-    // .then("/api/customers");
+    // .then(response => {
+    //   console.log("RESONSE",respnse)
+    // });
   };
   render() {
     return <div>Welcome to the Home Page</div>;

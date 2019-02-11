@@ -2,7 +2,7 @@ import axios from "axios";
 
 export function getAll() {
   console.log("server client firing");
-  // return axios.get("/api/customers");
+  return axios.get("/api/customers");
   //   .then(response => {
   //     return response;
   //   })
